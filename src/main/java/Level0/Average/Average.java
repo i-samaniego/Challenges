@@ -7,6 +7,7 @@ public class Average {
 
 
         int i = 0;
+
         while(i < nums.length){
             sum += nums[i];
             i++;
