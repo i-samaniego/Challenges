@@ -28,4 +28,8 @@ public class FilterZeroesTest {
         int[] target = {6, 4, 2};
         Assert.assertArrayEquals(target, fz.filter(nums));
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> d3396f2d5f2610a6d9026a38e3d364bbc9ab3ec9

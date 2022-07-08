@@ -22,4 +22,8 @@ public class ContainsDuplicatesTest {
         boolean target = true;
         Assert.assertEquals(target, cd.containsDuplicate(nums));
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> d3396f2d5f2610a6d9026a38e3d364bbc9ab3ec9

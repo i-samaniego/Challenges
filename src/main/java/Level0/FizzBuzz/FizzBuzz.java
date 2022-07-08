@@ -6,6 +6,7 @@ If divisible by both, return 'FizzBuzz'.
  */
 public class FizzBuzz {
     public String FizzBuzzGen(int n) {
+<<<<<<< HEAD
         int result = 0;
         if (n % 3 == 0 && n % 5 == 0) {
             return "FizzBuzz";
@@ -17,4 +18,25 @@ public class FizzBuzz {
             return "";
         }
     }
+=======
+
+        String f = "Fizz";
+        String b = "Buzz";
+
+        if ((n % 3 == 0) && (n % 5 == 0)){
+            return f + b;
+        }
+
+        if (n % 3 == 0){
+            return f;
+        }
+
+        if (n % 5 == 0){
+            return b;
+        }
+
+        return "";
+    }
+
+>>>>>>> d3396f2d5f2610a6d9026a38e3d364bbc9ab3ec9
 }

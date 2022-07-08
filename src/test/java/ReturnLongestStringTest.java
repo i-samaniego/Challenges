@@ -22,4 +22,8 @@ public class ReturnLongestStringTest {
         String target = "defsdgh";
         Assert.assertEquals(target, rls.longest(s));
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> d3396f2d5f2610a6d9026a38e3d364bbc9ab3ec9

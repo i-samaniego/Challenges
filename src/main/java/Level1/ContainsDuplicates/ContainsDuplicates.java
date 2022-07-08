@@ -1,5 +1,6 @@
 package Level1.ContainsDuplicates;
 
+<<<<<<< HEAD
 import java.util.HashSet;
 import java.util.Set;
 import java.util.TreeSet;
@@ -69,5 +70,26 @@ public class ContainsDuplicates {
         }
 
         return false;
+=======
+import java.util.stream.Stream;
+
+public class ContainsDuplicates {
+
+    public boolean containsDuplicate(int[] nums) {
+
+        for (int i = 0; i < nums.length; i++) {
+
+            for (int j = i + 1; j < nums.length; j++) {
+                if (nums[i] == nums[j]) {
+
+                    System.out.println(nums[j]);
+
+                    return true;
+                }
+            }
+        }
+        return false;
+
+>>>>>>> d3396f2d5f2610a6d9026a38e3d364bbc9ab3ec9
     }
 }
